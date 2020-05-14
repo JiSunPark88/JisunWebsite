@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>JiSunPark</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><strong><a href="index.html">Code.</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>Hello,</h2>
+				<div class="blink">
+				<h2 class ="typing">my name is Ji Sun Park.  </h2>
+				<script>
+                const texts = ['I am Ji Sun Park.'];
+                let count = 0;
+                let index = 0;
+                let currentText = '';
+                let letter = '';
+
+                (function type(){
+                  if(count == texts.length){
+                    count = 0;
+                  }
+                  currentText = texts[count];
+                  letter = currentText.slice(0, ++index);
+
+                  document.querySelector('.typing').textContent = letter;
+                  if(letter.length == currentText.length){
+                    count++;
+                    index = 0;
+                  }
+                  setTimeout(type,200);
+
+                }())
+
+                </script>
+							</div>
+
+			</section>
+
+			<!-- One -->
+				<section id="one" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>About Me</h2>
+									<ul class="mySkills">
+										<li> Java </li>
+										<li> PhotoShop </li>
+										<li> HTML/CSS </li>
+										<li> JavaScript </li>
+									</ul>
+
+
+									<div class="skills">
+										<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+										<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+									</div>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p>I am pursuing a Bachelor of Science degree in Computer Science and a minor in Business Administration at Rutgers University, New Brunswick.
+									I live in New Jersey.</p>
+								<p>I have a serious passion for various programming development, such as application and website, as well as data analysis. </p>
+							</div>
+						</div>
+					</div>
+				</section>
+			<!-- Three -->
+				<section id="three" class="wrapper style1">
+					<div class="container">
+						<header class="major special">
+							<h2>My Experiences</h2>
+						</header>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic04.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Designs</h4>
+									</header>
+									<p>Website (HTML/CSS/JavaScript)
+									<br /> Magazine Layout (Illustrator)
+								<br /> etc. (PhotoShop)</p>
+								<p> <a class="detail" href="designs.html">more detail. </a> </P>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic05.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Programming Languages</h4>
+									</header>
+									<p>Java
+									<br /> HTML/CSS/JavaScript
+								<br /> C/C++
+							<br /> Linux/UNIX
+						<br /> Python
+					<br /> SQL Server</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic06.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Courses</h4>
+									</header>
+									<p>Data Structure
+									<br /> Computer Architecture
+								<br /> Software Metheodology
+							<br /> Database (MySQL)
+						<br /> Computer Security
+					<br /> Business (Accounting, Marketing, Finance, Supply Chain)</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic07.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Work Experiences</h4>
+									</header>
+									<p>Rutgers Library
+									<br /> LG Electronics, USA
+								<br /> Sejong Travel Agency
+							<br /> H&M</p>
+							<p> <a class="detail" href="works.html">more detail. </a> </P>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style3 special">
+					<div class="container">
+						<header class="major">
+							<h2>Contact Me</h2>
+							<p>If you have any further question.</p>
+							<ul class="contact">
+							<li><a class="icon fa-envelope"><a class="contact" href="mailto: pjsun08019@gmail.com">  pjsun08019@gmail.com</a></a></li>
+							<li><a class="icon fa-phone">  +1(201)580-0025</a></li>
+						</ul>
+						</header>
+						<a href="#" class="button alt">Resume</a>
+					</div>
+				</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/kelly.park.503" target="_blank" class="icon fa-facebook"></a></li>
+						<li><a href="https://www.linkedin.com/in/ji-sun-park-926b8914b/" target="_blank" class="icon fa-linkedin"></a></li>
+						<li><a href="https://www.instagram.com/ke_llyy8/" target="_blank" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; JiSunPark2020</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
